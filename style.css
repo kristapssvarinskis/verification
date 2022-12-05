@@ -1,1 +1,23 @@
+@font-face {
+    font-family: LibreFranklin;
+    src: url(fonts/LibreFranklin.ttf);
+}
 
+html, body {
+    min-height: 100%;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: #222831;
+    font-family: LibreFranklin;
+}
+
+.tittle > h1 {
+    font-size: 230%;
+    padding: 0;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
